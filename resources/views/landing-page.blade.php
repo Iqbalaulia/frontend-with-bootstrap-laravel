@@ -18,11 +18,11 @@
     <section class="head">
         <div class="container">
             <div class="row">
-                <div class="col">
-                    <h1>
+                <div class="col align-self-center">
+                    <h1 class="mb-4">
                         The Design Thinking Superpowers
                     </h1>
-                    <p>
+                    <p class="mb-4 "> 
                         Tools, tutorials, design and innovation experts, all in one place! The most intuitive way to imagine your next user
                     </p>
                     <a href="" class="btn btn-primary" role="button">Get Started</a>
