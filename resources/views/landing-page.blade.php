@@ -15,42 +15,37 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar py-4 navbar-expand-lg navbar-light">
         <div class="container">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <a class="navbar-brand" href="#">
+                <img src="{{asset('./images/logo.png')}}" width="187" alt="">
+            </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active align-self-center">
+                        <a class="nav-link" href="#">Product <span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                    <li class="nav-item align-self-center">
+                        <a class="nav-link" href="#">Customers</a>
                     </li>
-                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
+                    <li class="nav-item align-self-center">
+                        <a class="nav-link" href="#">Pricing</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    <li class="nav-item align-self-center">
+                        <a class="nav-link" href="#">Resource</a>
                     </li>
+                    <a href="" class="btn  px-4 btn-secondary ml-5" role="button">Sign In</a>
+
+                    <a href="" class="btn  px-4 btn-primary ml-2" role="button">Sign Up</a>
+
+                    
                 </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
+               
             </div>
         </div>
     </nav>
@@ -68,15 +63,19 @@
                     </p>
                     <a href="" class="btn btn-primary" role="button">Get Started</a>
                 </div>
-                <div class="col">
+                <div class="col d-none d-sm-block d-sm-none d-md-block">
                     <img width="600" src="{{asset('./images/hero-icon.png')}}" alt="">
                 </div>
             </div>
         </div>
     </section>
 
-
-    <script type="text/javascript" src="{{asset('./js/bootstrap.js')}}"></script>
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+    <script type="text/javascript" src="{{ asset('./js/bootstrap.js')}}"></script>
 </body>
 
 </html>
+    
